@@ -52,7 +52,11 @@ public class MailManager {
         File contentFile = new File(Main.getInstance().getDataFolder(), contentPath);
         return CompletableFuture.supplyAsync(() -> {
             Main.debugging("Trying to send email to " + receiver + " ...");
-            return MailManager.sendEmail(createSession(), receiver, subject, readContent(contentFile, placeholders));
+            return MailManager.sendEmail(
+                    createSession(), receiver,
+                    setPlaceholders(subject, placeholders),
+                    readContent(contentFile, placeholders)
+            );
         });
     }
 
