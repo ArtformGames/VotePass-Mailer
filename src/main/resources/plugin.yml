@@ -1,0 +1,19 @@
+main: ${project.package}.Main
+name: ${project.name}
+
+version: ${project.version}
+description: ${project.description}
+website: ${project.url}
+
+authors:
+  - CarmJos
+
+api-version: 1.16
+
+depend:
+  - VotePass-Game
+
+commands:
+  "VotePassMailer":
+    usage: "/VotePassMailer help"
+    permission: "votepass.admin"
