@@ -84,6 +84,12 @@
         </repository>
 
         <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/ArtformGames/VotePass</url>
+        </repository>
+
+        <repository>
             <id>carm-repo</id>
             <url>https://repo.carm.cc/repository/maven-public/</url>
         </repository>
