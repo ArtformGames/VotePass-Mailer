@@ -72,7 +72,7 @@ public interface PluginConfig extends Configuration {
         interface APPROVED extends Configuration {
 
             ConfiguredValue<String> SUBJECT = ConfiguredValue.of(
-                    "Your whitelist request was APPROVED ! | ServerName"
+                    "Your whitelist request(#%(request)) was APPROVED ! | ServerName"
             );
 
             ConfiguredValue<String> FILE_PATH = ConfiguredValue.of("mail/approved-email.html");
@@ -82,7 +82,7 @@ public interface PluginConfig extends Configuration {
         interface REJECTED extends Configuration {
 
             ConfiguredValue<String> SUBJECT = ConfiguredValue.of(
-                    "Your whitelist request was REJECTED ! | ServerName"
+                    "Your whitelist request(#%(request)) was REJECTED ! | ServerName"
             );
 
             ConfiguredValue<String> FILE_PATH = ConfiguredValue.of("mail/rejected-email.html");
@@ -93,7 +93,7 @@ public interface PluginConfig extends Configuration {
         interface EXPIRED extends Configuration {
 
             ConfiguredValue<String> SUBJECT = ConfiguredValue.of(
-                    "Your whitelist request was EXPIRED ! | ServerName"
+                    "Your whitelist request(#%(request)) was EXPIRED ! | ServerName"
             );
 
             ConfiguredValue<String> FILE_PATH = ConfiguredValue.of("mail/expired-email.html");
