@@ -17,7 +17,7 @@
     </properties>
     <groupId>com.artformgames</groupId>
     <artifactId>votepass-mailer</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>VotePass-Mailer</name>
     <description>Support email notify for VotePass in game servers.</description>
