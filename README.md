@@ -9,7 +9,7 @@ Support email notify for VotePass in game servers.
 - **[Recommend]** Placeholders based on [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) .
 
 For development dependencies, please
-see  [Dependencies](https://github.com/ArtformGames/VotePass/network/dependencies) .
+see  [Dependencies](https://github.com/ArtformGames/VotePass-Mailer/network/dependencies) .
 
 ## Commands
 
