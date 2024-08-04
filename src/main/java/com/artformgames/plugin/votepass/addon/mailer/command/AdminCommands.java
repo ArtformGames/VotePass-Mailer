@@ -1,9 +1,9 @@
-package com.artformgames.plugin.votepassmailer.command;
+package com.artformgames.plugin.votepass.addon.mailer.command;
 
 import cc.carm.lib.easyplugin.command.CommandHandler;
-import com.artformgames.plugin.votepassmailer.command.admin.ReloadCommand;
-import com.artformgames.plugin.votepassmailer.command.admin.TestCommand;
-import com.artformgames.plugin.votepassmailer.conf.PluginMessages;
+import com.artformgames.plugin.votepass.addon.mailer.command.admin.TestCommand;
+import com.artformgames.plugin.votepass.addon.mailer.conf.PluginMessages;
+import com.artformgames.plugin.votepass.addon.mailer.command.admin.ReloadCommand;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;

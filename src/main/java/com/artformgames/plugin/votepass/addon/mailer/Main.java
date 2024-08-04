@@ -1,14 +1,14 @@
-package com.artformgames.plugin.votepassmailer;
+package com.artformgames.plugin.votepass.addon.mailer;
 
 import cc.carm.lib.easyplugin.EasyPlugin;
 import cc.carm.lib.easyplugin.i18n.EasyPluginMessageProvider;
 import cc.carm.lib.easyplugin.utils.JarResourceUtils;
 import cc.carm.lib.mineconfiguration.bukkit.MineConfiguration;
-import com.artformgames.plugin.votepassmailer.command.AdminCommands;
-import com.artformgames.plugin.votepassmailer.conf.PluginConfig;
-import com.artformgames.plugin.votepassmailer.conf.PluginMessages;
-import com.artformgames.plugin.votepassmailer.listener.ResultListener;
-import com.artformgames.plugin.votepassmailer.util.GHUpdateChecker;
+import com.artformgames.plugin.votepass.addon.mailer.command.AdminCommands;
+import com.artformgames.plugin.votepass.addon.mailer.conf.PluginConfig;
+import com.artformgames.plugin.votepass.addon.mailer.conf.PluginMessages;
+import com.artformgames.plugin.votepass.addon.mailer.listener.ResultListener;
+import com.artformgames.plugin.votepass.addon.mailer.util.GHUpdateChecker;
 import org.bstats.bukkit.Metrics;
 
 import java.io.File;

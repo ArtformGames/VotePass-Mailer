@@ -1,11 +1,11 @@
-package com.artformgames.plugin.votepassmailer.listener;
+package com.artformgames.plugin.votepass.addon.mailer.listener;
 
+import com.artformgames.plugin.votepass.addon.mailer.Main;
+import com.artformgames.plugin.votepass.addon.mailer.conf.PluginConfig;
+import com.artformgames.plugin.votepass.addon.mailer.manager.MailManager;
 import com.artformgames.plugin.votepass.api.data.request.RequestAnswer;
 import com.artformgames.plugin.votepass.api.data.request.RequestInformation;
 import com.artformgames.plugin.votepass.game.api.event.RequestResultUpdatedEvent;
-import com.artformgames.plugin.votepassmailer.Main;
-import com.artformgames.plugin.votepassmailer.conf.PluginConfig;
-import com.artformgames.plugin.votepassmailer.manager.MailManager;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 

@@ -1,4 +1,4 @@
-package com.artformgames.plugin.votepassmailer.conf;
+package com.artformgames.plugin.votepass.addon.mailer.conf;
 
 import cc.carm.lib.configuration.core.Configuration;
 import cc.carm.lib.mineconfiguration.bukkit.value.ConfiguredMessageList;

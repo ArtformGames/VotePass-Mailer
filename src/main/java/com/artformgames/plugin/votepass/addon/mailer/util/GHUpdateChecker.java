@@ -1,4 +1,4 @@
-package com.artformgames.plugin.votepassmailer.util;
+package com.artformgames.plugin.votepass.addon.mailer.util;
 
 import cc.carm.lib.githubreleases4j.GithubReleases4J;
 import org.bukkit.Bukkit;

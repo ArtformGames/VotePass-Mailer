@@ -1,8 +1,8 @@
-package com.artformgames.plugin.votepassmailer.manager;
+package com.artformgames.plugin.votepass.addon.mailer.manager;
 
+import com.artformgames.plugin.votepass.addon.mailer.Main;
+import com.artformgames.plugin.votepass.addon.mailer.conf.PluginConfig;
 import com.artformgames.plugin.votepass.api.data.request.RequestResult;
-import com.artformgames.plugin.votepassmailer.Main;
-import com.artformgames.plugin.votepassmailer.conf.PluginConfig;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
