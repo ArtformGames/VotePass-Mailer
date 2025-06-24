@@ -13,7 +13,7 @@
         <project.package>com.artformgames.plugin.votepass.addon.mailer</project.package>
 
         <deps.easyplugin.version>1.5.14</deps.easyplugin.version>
-        <deps.mineconfig.version>3.1.1</deps.mineconfig.version>
+        <deps.mineconfig.version>3.1.3</deps.mineconfig.version>
     </properties>
     <groupId>com.artformgames</groupId>
     <artifactId>votepass-mailer</artifactId>
